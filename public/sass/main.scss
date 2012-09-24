@@ -1,0 +1,47 @@
+//SASS s2 COMPASS
+	//Imports
+		@import "compass";
+		@import "compass/reset";
+		@import "960/grid";
+		
+		@import "helpers/_vars.scss";
+		@import "helpers/_reset.scss";
+		@import "helpers/_mixins.scss";
+		@import "helpers/_classes-default.scss";
+		@import "helpers/_classes.scss";
+
+	//GRID - Configs
+		$ninesixty-columns: 		24;
+		$ninesixty-grid-width: 		960px;
+		$ninesixty-gutter-width: 	10px;
+
+		#page { 
+			@include grid-system(24);
+		}
+
+	//SPRITES 
+		//ICONES
+			$ico-layout:smart;
+			$ico-sprite-dimensions:true;
+			@import "sprites/ico/*.png";
+			@include all-ico-sprites;
+
+		//OTHERS SPRITES
+			//$box-layout:smart;
+			//$box-sprite-dimensions:true;
+			//@import "sprites/example/*.png";
+			//@include all-example-sprites;
+
+
+//Definições globais
+body {
+	background: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12x;
+	color: #333;
+}
+
+//Estrutura
+#page {
+	
+}
