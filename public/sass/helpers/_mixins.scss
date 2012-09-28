@@ -1,11 +1,19 @@
+// =========================================================================
+//  File:    Mixins.scss
+//  Description: Mixins padrões
+// =========================================================================
+
+
+//  Absolute Mixin
 @mixin absolute($top: 0, $left:0) {
 	position:absolute;
 	top:$top;
 	left:$left;
 }
 
+// Border Radius Mixin
 @mixin radius($size:5px){
-	border-radius:$size; 
-	-moz-border-radius:$size; 
-	-webkit-border-radius:$size;
+  -webkit-border-radius:$size;
+     -moz-border-radius:$size; 
+	      border-radius:$size; 
 }

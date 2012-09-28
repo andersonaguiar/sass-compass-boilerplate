@@ -1,16 +1,43 @@
-//Variaveis 
-	//Positioning 
+// =========================================================================
+//  File:    vars.scss
+//  Description: Variaveis padroes
+// =========================================================================
 
-	//Display & Box Model 
-		$padding: 		10px;
-		$margin: 		10px;
+// Colors
+$white : #fff;
+$red   : #f00;
+$green : #0f0;
+$blue  : #00f;
 
-	//Color 
+// Backgrounds
+$bgDefault: $white;
 
-	//Text 
+
+// Links
+$linkColor:      $blue;
+$linkColorHover: $red;
+
+// =========================================================================
+//  Typography
+// =========================================================================
+$fontSize: 16px;
+$fontFamily: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+//  Headings
+// =========================================================================
+
+
+//Display & Box Model 
+$padding: 		10px;
+$margin: 		10px;
+
+//Color 
+
+//Text 
 	
 
-	//Other 
+//Other 
 
 
 //Variaveis do projeto 
