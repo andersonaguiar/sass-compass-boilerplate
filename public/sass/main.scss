@@ -1,47 +1,89 @@
-//SASS s2 COMPASS
-	//Imports
-		@import "compass";
-		@import "compass/reset";
-		@import "960/grid";
-		
-		@import "helpers/_vars.scss";
-		@import "helpers/_reset.scss";
-		@import "helpers/_mixins.scss";
-		@import "helpers/_classes-default.scss";
-		@import "helpers/_classes.scss";
+// =========================================================================
+//  Sass <3 Compass :p
+//  File: main.scss
+//  Description: Classes especificas ao projeto
+// =========================================================================
 
-	//GRID - Configs
-		$ninesixty-columns: 		24;
-		$ninesixty-grid-width: 		960px;
-		$ninesixty-gutter-width: 	10px;
+// =========================================================================
+//  Imports of all  beautiful things <3
+// =========================================================================
 
-		#page { 
-			@include grid-system(24);
-		}
+// Compass 
+@import "compass";
+@import "compass/reset";
 
-	//SPRITES 
-		//ICONES
-			$ico-layout:smart;
-			$ico-sprite-dimensions:true;
-			@import "sprites/ico/*.png";
-			@include all-ico-sprites;
+// Grid
+@import "960/grid";
 
-		//OTHERS SPRITES
-			//$box-layout:smart;
-			//$box-sprite-dimensions:true;
-			//@import "sprites/example/*.png";
-			//@include all-example-sprites;
+// Helpers
+@import "helpers/_vars.scss";
+@import "helpers/_reset.scss";
+@import "helpers/_mixins.scss";
+@import "helpers/_classes-default.scss";
+@import "helpers/_classes.scss";
 
 
-//Definições globais
+// =========================================================================
+//  Grids Configs Default
+// =========================================================================
+
+$ninesixty-columns: 		24;
+$ninesixty-grid-width: 		960px;
+$ninesixty-gutter-width: 	10px;
+
+#page { @include grid-system(24); }
+
+// =========================================================================
+//  Sprites/ Icons
+// =========================================================================
+
+$ico-layout:smart;
+$ico-sprite-dimensions:true;
+@import "sprites/ico/*.png";
+@include all-ico-sprites;
+
+// =========================================================================
+//  Other Sprites
+// =========================================================================
+
+//$box-layout:smart;
+//$box-sprite-dimensions:true;
+//@import "sprites/example/*.png";
+//@include all-example-sprites;
+
+
+// =========================================================================
+//  Global Definitions
+// =========================================================================
 body {
-	background: #FFF;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12x;
+	background: $bgDefault;
+	font-family: $fontFamily;
+	font-size: $fontSize;
 	color: #333;
 }
 
-//Estrutura
+// =========================================================================
+//  Layout
+// =========================================================================
 #page {
 	
-}
+
+
+// =========================================================================
+//  Header
+// =========================================================================
+
+
+// =========================================================================
+//  Content
+// =========================================================================
+
+
+// =========================================================================
+//  Footer
+// =========================================================================
+
+
+// =========================================================================
+//  Miscellaneous
+// =========================================================================
