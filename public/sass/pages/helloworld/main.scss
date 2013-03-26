@@ -4,12 +4,9 @@
 //  Description: Example
 // =========================================================================
 //Imports
-	@import "compass";
-	
-	@import "helpers/_vars.scss";
-	@import "helpers/_mixins.scss";
+@import "imports/internal.scss";
 
-//Estrutura
+//Estructure
 #helloworld {
 	
 }

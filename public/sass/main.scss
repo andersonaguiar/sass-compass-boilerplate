@@ -18,16 +18,19 @@ $ninesixty-grid-width: 		960px;
 $ninesixty-gutter-width: 	10px;
 
 //Comment when not use this
-#page { @include grid-system(24); }
+#page { 
+	@include grid-system(24); 
+	//@include animate(bounceInDown); #For include animation, more: http://thecssguru.freeiz.com/animate/ 
+}
 
 // =========================================================================
 //  Global Definitions
 // =========================================================================
 body {
-	background: $bgDefault;
-	font-family: $fontFamily;
-	font-size: $fontSize;
-	color: #333;
+	background: 	$bgDefault;
+	font-family: 	$fontFamily;
+	font-size: 		$fontSize;
+	color: 			#333;
 }
 
 // =========================================================================

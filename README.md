@@ -1,7 +1,7 @@
 Install
 ====================
 
-<p>Compass(SASS já vem instalado com ele)</p>
+<p>Compass (SASS with it already installed)</p>
 <pre>
 	<code>gem install compass</code>
 </pre>
