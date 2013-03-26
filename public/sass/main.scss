@@ -1,56 +1,24 @@
 // =========================================================================
-//  Sass <3 Compass :p
+//  Sass <3 Compass
 //  File: main.scss
-//  Description: Classes especificas ao projeto
+//  Description: Classes specific to the project
 // =========================================================================
 
 // =========================================================================
-//  Imports of all  beautiful things <3
+//  Imports of all  beautiful things
 // =========================================================================
-
-// Compass 
-@import "compass";
-@import "compass/reset";
-
-// Grid
-@import "960/grid";
-
-// Helpers
-@import "helpers/_vars.scss";
-@import "helpers/_reset.scss";
-@import "helpers/_mixins.scss";
-@import "helpers/_classes-default.scss";
-@import "helpers/_classes.scss";
+@import "imports/general.scss";
 
 
 // =========================================================================
 //  Grids Configs Default
 // =========================================================================
-
 $ninesixty-columns: 		24;
 $ninesixty-grid-width: 		960px;
 $ninesixty-gutter-width: 	10px;
 
+//Comment when not use this
 #page { @include grid-system(24); }
-
-// =========================================================================
-//  Sprites/ Icons
-// =========================================================================
-
-$ico-layout:smart;
-$ico-sprite-dimensions:true;
-@import "sprites/ico/*.png";
-@include all-ico-sprites;
-
-// =========================================================================
-//  Other Sprites
-// =========================================================================
-
-//$box-layout:smart;
-//$box-sprite-dimensions:true;
-//@import "sprites/example/*.png";
-//@include all-example-sprites;
-
 
 // =========================================================================
 //  Global Definitions
@@ -65,8 +33,6 @@ body {
 // =========================================================================
 //  Layout
 // =========================================================================
-#page {
-	
 
 
 // =========================================================================

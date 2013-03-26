@@ -1,0 +1,18 @@
+// =========================================================================
+//  Sprites / Icons
+// =========================================================================
+
+$ico-layout:smart;
+$ico-sprite-dimensions:true;
+@import "sprites/ico/*.png";
+@include all-ico-sprites;
+
+// =========================================================================
+//  Other Sprites
+// =========================================================================
+
+// # Enable when you will go use other sprites #
+//$box-layout:smart;
+//$box-sprite-dimensions:true;
+//@import "sprites/example/*.png";
+//@include all-example-sprites;

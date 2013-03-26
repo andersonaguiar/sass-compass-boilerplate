@@ -1,0 +1,17 @@
+// Imports
+
+	// Compass 
+	@import "compass";
+	@import "compass/reset";
+
+	// Grid
+	@import "960/grid"; //Comment when not use this
+
+	// Helpers
+	@import "helpers/_vars.scss";              	//variables
+	@import "helpers/_reset.scss";				//reset default + h5bp
+	@import "helpers/_mixins.scss";				//usefull mixins
+	@import "helpers/_animate.scss"; 			//mixins específicos de animações em CSS3
+	@import "helpers/_classes-default.scss";	//global classes
+	@import "helpers/_classes.scss";			//classes of project
+	@import "helpers/_sprites.scss"; 			//sprites of project
